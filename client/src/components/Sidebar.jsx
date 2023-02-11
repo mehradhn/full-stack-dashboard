@@ -201,7 +201,7 @@ function Sidebar({
             <FlexBetween
               textTransform="none"
               gap="1rem"
-              margin="1.5rem 2rem 0 3rem"
+              margin="1.5rem 2rem 1rem 3rem"
             >
               <Box
                 component="img"
@@ -230,7 +230,10 @@ function Sidebar({
                 </Typography>
               </Box>
               <SettingsOutlined
-                sx={{ color: theme.palette.secondary[300], fontSize: "25px" }}
+                sx={{
+                  color: theme.palette.secondary[300],
+                  fontSize: "25px",
+                }}
               />
             </FlexBetween>
           </Box>
