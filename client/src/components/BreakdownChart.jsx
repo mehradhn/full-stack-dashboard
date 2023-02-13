@@ -27,7 +27,7 @@ const BreakdownChart = ({ isDashboard = false }) => {
   return (
     <Box
       height={isDashboard ? "400px" : "100%"}
-      width={undefined}
+      width={"80vw"}
       minHeight={isDashboard ? "325px" : undefined}
       minWidth={isDashboard ? "325px" : undefined}
       position="relative"
@@ -63,7 +63,7 @@ const BreakdownChart = ({ isDashboard = false }) => {
           },
           tooltip: {
             container: {
-              color: theme.palette.primary.main,
+              color: "black",
             },
           },
         }}
@@ -71,7 +71,7 @@ const BreakdownChart = ({ isDashboard = false }) => {
         margin={
           isDashboard
             ? { top: 40, right: 80, bottom: 100, left: 50 }
-            : { top: 40, right: 80, bottom: 80, left: 80 }
+            : { top: 40, right: 50, bottom: 80, left: 80 }
         }
         sortByValue={true}
         innerRadius={0.45}

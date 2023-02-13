@@ -11,7 +11,7 @@ function Overview() {
         title="OVERVIEW"
         subtitle="Overview of general revenu and profit"
       />
-      <Box height="75vh">
+      <Box height="75vh" width={"75vw"}>
         <FormControl sx={{ mt: "1rem" }}>
           <InputLabel>View</InputLabel>
           <Select

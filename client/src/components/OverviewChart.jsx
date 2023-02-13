@@ -78,7 +78,7 @@ const OverviewChart = ({ isDashboard = false, view }) => {
         },
         tooltip: {
           container: {
-            color: theme.palette.primary.main,
+            color: "black",
           },
         },
       }}
